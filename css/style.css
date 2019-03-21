@@ -1,8 +1,9 @@
-body{
-    overflow-x: hidden 
+body {
+    overflow-x: hidden
 }
-.primary-overlay{
-    background: rgb(0,0,0,0.7);
+
+.primary-overlay {
+    background: rgb(0, 0, 0, 0.7);
     position: absolute;
     top: 0%;
     left: 0%;
@@ -11,6 +12,7 @@ body{
     overflow: hidden;
 
 }
+
 .main-header {
     background: url(/img/showcase.jpg);
     background-size: cover;
@@ -20,28 +22,48 @@ body{
     color: #fff;
     position: relative;
 }
+
 .right li a {
     font-size: 17px;
 }
-.main-header .showcase{
+
+.main-header .showcase {
     padding-top: 90px;
 }
-.icon{
-    position:absolute;
+
+.icon {
+    position: absolute;
     bottom: 5%;
     left: 50%;
     opacity: 0.5;
 }
 
-.box{
+.box {
     padding: 40px 10px !important;
 }
 
-.section-boxes .row{
+.section-boxes .row {
     margin: 0 !important;
 }
-@media(max-width:600px){
-    .main-header{
+.card-panel{
+    position: relative;
+    z-index: 1;
+}
+.section-contact {
+    position: relative;
+}
+
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media(max-width:600px) {
+    .main-header {
         height: 50vh;
     }
 }
