@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden 
+}
 .primary-overlay{
     background: rgb(0,0,0,0.7);
     position: absolute;
@@ -21,11 +24,24 @@
     font-size: 17px;
 }
 .main-header .showcase{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .icon{
     position:absolute;
     bottom: 5%;
     left: 50%;
     opacity: 0.5;
+}
+
+.box{
+    padding: 40px 10px !important;
+}
+
+.section-boxes .row{
+    margin: 0 !important;
+}
+@media(max-width:600px){
+    .main-header{
+        height: 50vh;
+    }
 }
