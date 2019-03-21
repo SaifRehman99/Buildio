@@ -14,9 +14,9 @@ body {
 }
 
 .main-header {
-    background-image: url(img/showcase.jpg);
-    background-image: url(/img/showcase.jpg);
-    background-image: url(/img/people.jpg);
+    background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+    /* background-image: url(/img/showcase.jpg); */
+    /* background-image: url(/img/people.jpg); */
 
 
     background-size: cover;
